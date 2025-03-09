@@ -13,7 +13,7 @@ function App() {
   return (
     <HelmetProvider>
       <ChakraProvider theme={theme}>
-        <Router>
+        <Router basename="/socialrabbit.github.io">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
