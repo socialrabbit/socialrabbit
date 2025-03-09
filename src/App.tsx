@@ -1,5 +1,5 @@
 import { ChakraProvider } from '@chakra-ui/react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import theme from './theme/theme'
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <HelmetProvider>
       <ChakraProvider theme={theme}>
-        <Router basename="/socialrabbit">
+        <Router>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
