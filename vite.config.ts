@@ -6,10 +6,17 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
+    assetsDir: 'assets',
     rollupOptions: {
       output: {
         manualChunks: undefined
       }
     }
-  }
+  },
+  server: {
+    headers: {
+      'Content-Type': 'application/javascript'
+    }
+  },
+  base: './'
 })
