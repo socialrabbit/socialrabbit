@@ -1,10 +1,10 @@
-# 🐰 SocialRabbit
+# 🐰 socialrabbit
 
-Welcome to SocialRabbit - Where Innovation Meets Social Impact
+Welcome to socialrabbit - Where Innovation Meets Social Impact
 
 ## About Us
 
-SocialRabbit is a forward-thinking organization dedicated to creating innovative solutions that bridge technology and social connectivity. Our projects focus on enhancing digital interactions while maintaining human-centric values.
+socialrabbit is a forward-thinking organization dedicated to creating innovative solutions that bridge technology and social connectivity. Our projects focus on enhancing digital interactions while maintaining human-centric values.
 
 ## 🚀 Featured Projects
 
@@ -48,4 +48,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by SocialRabbit Team
+Made with ❤️ by socialrabbit Team

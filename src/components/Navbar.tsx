@@ -49,7 +49,7 @@ export default function Navbar() {
         />
         <HStack spacing={8} alignItems={'center'}>
           <Box fontWeight="bold" fontSize="xl" color="brand.500">
-            🐰 SocialRabbit
+            🐰 socialrabbit
           </Box>
           <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
             {Links.map((link) => (
