@@ -13,10 +13,8 @@ export default defineConfig({
       }
     }
   },
-  server: {
-    headers: {
-      'Content-Type': 'application/javascript'
-    }
-  },
-  base: './'
+  base: '',
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx']
+  }
 })
